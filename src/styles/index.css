@@ -1,0 +1,37 @@
+.container {
+  display: inline;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  width: 100%;
+  float: left;
+  margin: 0 0 3em 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.nav li {
+  list-style: none;
+  display: flex;
+  float: right;
+  vertical-align: middle;
+}
+
+.nav li a {
+  padding: 8px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: grey;
+}
+
+.nav ul {
+  text-align: left;
+  position: absolute;
+  vertical-align: middle;
+  margin-top: 0%;
+  right: 25%;
+}
+
