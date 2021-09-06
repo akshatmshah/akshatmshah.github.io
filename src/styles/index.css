@@ -20,6 +20,10 @@
   vertical-align: middle;
 }
 
+.nav li a:hover{
+  color: #61796D;
+}
+
 .nav li a {
   padding: 8px 15px;
   text-decoration: none;

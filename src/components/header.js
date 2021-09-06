@@ -25,7 +25,7 @@ const Header = ({ siteTitle }) => (
               style={{
                 color: `black`,
                 textDecoration: `none`,
-                fontSize: 30,
+                fontSize: 40,
               }}
             >
               {siteTitle}
@@ -33,8 +33,9 @@ const Header = ({ siteTitle }) => (
           </h1>
           <ul id = "navbar-items">
             <li>
-              <a href="https://github.com/akshatmshah">github</a>
               <Link to="/blog">blog</Link>
+              <a href="https://github.com/akshatmshah">github</a>
+              <a href='mailto:akshats@seas.upenn.edu'>contact</a>
             </li>
           </ul>
         </div>

@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import "../styles/blog-layout.css"
+
 
 const SecondPage = () => (
   <Layout>
