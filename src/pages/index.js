@@ -17,7 +17,7 @@ const IndexPage = () => (
       Hey! I’m <code><b>Akshat Shah</b></code>{" "}(the one trying to eat the cookie). I am a sophomore at 
       the University of Pennsylvania studying Computer and Information Sciences. 
       I am currently a full-stack developer for <code><b>PennApps</b></code> (the organizing community for our 
-      school hackathon) and  a teaching assistant for <code><b> CIS 262 Complexity Automata and Automation</b></code>. 
+      school hackathon) and  a teaching assistant for <code><b> CIS 262 Automata., Computability, and Complexity</b></code>. 
       </p>
       {"\n"}
       <p>
@@ -31,7 +31,7 @@ const IndexPage = () => (
       I enjoy <code><b>cooking</b></code>, finding new underground <code><b>rappers</b></code>, and partaking 
       in activities that force me out of my <code><b>comfort zone</b></code> (like my blog).
       Since I've been in Philly, I've become an avid <code><b>vegetarian</b></code> taco 
-      entusiant and a <i>professional</i> spikeball player.
+      enthusiast and a <i>professional</i> spikeball player.
       </p>
     </div>
   </Layout>
