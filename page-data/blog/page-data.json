@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-blog-js",
+    "path": "/blog/",
+    "result": {"data":{"allMarkdownRemark":{"edges":[{"node":{"excerpt":"i find mYself searching for answers that i can’t find. coding to reach a goal i don’t know if i can achieve. questioning mYself if I am capable. but I didn’t realize. i wanted the world that others had but didn’t put in the effort. i left mYself…","frontmatter":{"date":"September, 03, 2021","path":"/first:)","title":"mY first blog post"}}}]}},"pageContext":{}},
+    "staticQueryHashes": ["3649515864","63159454"]}
