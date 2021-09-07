@@ -14,23 +14,23 @@ const IndexPage = () => (
     <div className="introduction">
       <img className="pfpC" src={pfp} align="left" />
       <p>
-      Hey! I’m <code><b>Akshat Shah</b></code>{" "}(the one trying to eat the cookie). I am a sophomore at 
+      Hey! I’m <code className="emph"><b>Akshat Shah</b></code>&nbsp;(the one trying to eat the cookie). I am a sophomore at 
       the University of Pennsylvania studying Computer and Information Sciences. 
-      I am currently a full-stack developer for <code><b>PennApps</b></code> (the organizing community for our 
-      school hackathon) and  a teaching assistant for <code><b> CIS 262 Automata., Computability, and Complexity</b></code>. 
+      I am currently a full-stack developer for <code className="emph"><b>PennApps</b></code>&nbsp;(the organizing community for our 
+      school hackathon) and  a teaching assistant for <code className="emph"><b> CIS 262 Automata., Computability, and Complexity</b></code>. 
       </p>
       {"\n"}
       <p>
       Throughout high school, I worked on research to help marginalized 
-      communities using <code><b>computer vision</b></code> and <code><b>machine learning</b></code>, but now I 
+      communities using <code className="emph"><b>computer vision</b></code>&nbsp;and <code className="emph"><b>machine learning</b></code>, but now I 
       want to help bring my out-of-the-box thinking to integrate new 
       technologies with companies! 
       </p>
       
       <p>
-      I enjoy <code><b>cooking</b></code>, finding new underground <code><b>rappers</b></code>, and partaking 
-      in activities that force me out of my <code><b>comfort zone</b></code> (like my blog).
-      Since I've been in Philly, I've become an avid <code><b>vegetarian</b></code> taco 
+      I enjoy <code className="emph"><b>cooking</b></code>, finding new underground <code className="emph"><b>rappers</b></code>, and partaking 
+      in activities that force me out of my <code className="emph"><b>comfort zone</b></code>&nbsp;(like my blog).
+      Since I've been in Philly, I've become an avid <code className="emph"><b>vegetarian</b></code>&nbsp;taco 
       enthusiast and a <i>professional</i> spikeball player.
       </p>
     </div>
