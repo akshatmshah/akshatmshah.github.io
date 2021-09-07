@@ -20,8 +20,8 @@ const BlogPage = ({ data: { allMarkdownRemark: { edges } } }) => {
                 </Link>
             </h2>
             </div>
-            <div>
-            {node.frontmatter.date}
+            <div className="date">
+              {node.frontmatter.date}
             </div>
           </div>
         ))}
