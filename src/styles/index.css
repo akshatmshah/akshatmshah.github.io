@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
 .container {
   display: inline;
   align-items: center;
@@ -38,4 +41,20 @@
   margin-top: 0%;
   right: 25%;
 }
+
+.introduction > p{
+  font-family: 'Montserrat', system-ui, sans-serif;
+}
+
+.pfpC{
+  height: 275px;
+  width: 275px;
+  margin: 0px 10px 0px 0px;
+}
+
+.emph{
+  font-family: 'Montserrat', system-ui, sans-serif;
+  color:black;
+}
+
 
