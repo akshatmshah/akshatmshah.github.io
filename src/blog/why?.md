@@ -5,7 +5,3 @@ title: "mY first blog post"
 ---
 
 It's either day one or one day.
-
-~~~~
-a memento for myself
-~~~~

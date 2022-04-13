@@ -14,7 +14,7 @@ const IndexPage = () => (
     <div className="introduction">
       <img className="pfpC" src={pfp} align="left" />
       <p>
-      Hey! I’m <code className="emph"><b>Akshat Shah</b></code>&nbsp;(the one trying to eat the cookie). I am a sophomore at 
+      Hey! I’m <code className="emph"><b>Akshat Shah</b></code>&nbsp;. I am a sophomore at 
       the University of Pennsylvania studying Computer and Information Sciences. 
       I am currently a full-stack developer for <code className="emph"><b>PennApps</b></code>&nbsp;(the organizing community for our 
       school hackathon) and  a teaching assistant for <code className="emph"><b> CIS 262 Automata., Computability, and Complexity</b></code>. 
