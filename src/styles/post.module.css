@@ -1,0 +1,41 @@
+/* Post.module.css */
+
+.post {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .category {
+    font-size: 20px;
+    color: #555;
+  }
+  
+  .content {
+    margin-top: 30px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Slideshow Styles */
+  .slideshow {
+    margin-top: 30px;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+  }
+  

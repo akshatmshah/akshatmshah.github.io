@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.nav {
+  width: 100%;
+  float: left;
+  margin: 0 0 3em 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav li {
+  display: flex;
+  float: right;
+  vertical-align: middle;
+  list-style-type: none;
+}
+
+.nav li a:hover {
+  color: #61796D;
+}
+
+.nav ul {
+  list-style: none
+}
+
+.nav li a {
+  padding: 8px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: grey;
+}
+
+.nav ul {
+  text-align: left;
+  list-style-type: none;
+  position: absolute;
+  vertical-align: middle;
+  margin-top: 0%;
+  right: 25%;
+}
+
+.introduction {
+  display: flex;
+  justify-content: center;
+  opacity: 1; 
+  position: relative;
+}
+
+.introduction p {
+  position: relative;
+}
+
+.introduction p::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px; 
+  width: 100%;
+  height: 4px;
+  background-image: linear-gradient(to right, #6472f1, #4bc0c8); 
+  animation: squiggle 0.5s forwards;
+}
+
+@keyframes squiggle {
+  0% {
+    transform: translateX(-25%);
+  }
+  50% {
+    transform: translateX(25%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+
+.imageAndText {
+  display: flex;
+  align-items: center;
+}
+
+.imageAndText p {
+  font-size: 40px;
+  white-space: nowrap;
+  margin-left: 20px;
+}
+
+.introduction > p {
+  font-family: 'Montserrat', system-ui, sans-serif;
+}
+
+.pfpC {
+  height: 275px;
+  width: 275px;
+  margin: 0px 10px 0px 0px;
+}
+
+.emph {
+  font-family: 'Montserrat', system-ui, sans-serif;
+  color: #d63384;
+}
+
+.menu {
+  font-family: 'Montserrat', system-ui, sans-serif;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding-bottom: 3%;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #121111;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+  color: #616164;
+}
